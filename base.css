@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #e4e4e4;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 100%;
+    background-color: rgb(196, 133, 223);
+    padding: 100px 0px 0px;
+    text-align: left;
+}
+.header {
+    background-color: rgb(196, 133, 223);
+    min-height: 150px;
+    text-align: center;
+}
+.content {
+    background-color: white;
+    min-height: 0px;
+    padding: 20px;
+}
+.footer {
+    background-color:white;
+    min-height: 100px;
+}
